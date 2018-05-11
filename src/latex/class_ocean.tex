@@ -1,0 +1,137 @@
+\hypertarget{class_ocean}{}\section{Ocean Class Reference}
+\label{class_ocean}\index{Ocean@{Ocean}}
+
+
+classe faisant la synthèse de toutes les données -\/ calculs des hauteurs  
+
+
+
+
+{\ttfamily \#include $<$Ocean.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_ocean_a6a56fee065163c5bd6e5286879648407}{Ocean} (double \+\_\+lx, double \+\_\+ly, int \+\_\+nx, int \+\_\+ny, \hyperlink{class_wave_model}{Wave\+Model} $\ast$\+\_\+model)
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+\hypertarget{class_ocean_af8e1a8ac9f96ae135974e0ed95c61ff8}{}\label{class_ocean_af8e1a8ac9f96ae135974e0ed95c61ff8} 
+\hyperlink{class_ocean}{Ocean} \& {\bfseries operator=} (const \hyperlink{class_ocean}{Ocean} \&)
+\item 
+void \hyperlink{class_ocean_a3f3c62c66d2e25ee9c1fb571f66809e4}{generate\+Height} (double h)
+\begin{DoxyCompactList}\small\item\em Initialisation. \end{DoxyCompactList}\item 
+void \hyperlink{class_ocean_ae2b45ea776fbb72552af532b2cd8b120}{main\+\_\+computation} (int t)
+\begin{DoxyCompactList}\small\item\em Calcul. \end{DoxyCompactList}\item 
+\hypertarget{class_ocean_abd4079afe50333f62d206cf1f4ad94b2}{}\label{class_ocean_abd4079afe50333f62d206cf1f4ad94b2} 
+int {\bfseries get\+Nx} ()
+\item 
+\hypertarget{class_ocean_a5d5ec3b226e48b36ea4f0935bab59d90}{}\label{class_ocean_a5d5ec3b226e48b36ea4f0935bab59d90} 
+int {\bfseries get\+Ny} ()
+\item 
+\hypertarget{class_ocean_a7a70306563f904db9d1e45341b0ee17b}{}\label{class_ocean_a7a70306563f904db9d1e45341b0ee17b} 
+double {\bfseries get\+\_\+lx} ()
+\item 
+\hypertarget{class_ocean_abe5c5b3d24ed7521b351e2be630623db}{}\label{class_ocean_abe5c5b3d24ed7521b351e2be630623db} 
+double {\bfseries get\+\_\+ly} ()
+\item 
+void \hyperlink{class_ocean_ad10379d1f92b154eca3936860c96b4f4}{init\+\_\+gl\+\_\+\+Vertex\+ArrayX} (const int y, double $\ast$const vertices) const
+\item 
+void \hyperlink{class_ocean_a1adbab4eeb806026aff3fb730ca3fe5c}{init\+\_\+gl\+\_\+\+Vertex\+ArrayY} (const int x, double $\ast$const vertices) const
+\item 
+void \hyperlink{class_ocean_abd9dcb14e3ec076a8623099c0445dc5c}{gl\+\_\+\+Vertex\+ArrayX} (const int y, double $\ast$const vertices) const
+\item 
+void \hyperlink{class_ocean_a1100e965070ccb68a8f0bec5d5b60a5c}{gl\+\_\+\+Vertex\+ArrayY} (const int x, double $\ast$const vertices) const
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+classe faisant la synthèse de toutes les données -\/ calculs des hauteurs 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_ocean_a6a56fee065163c5bd6e5286879648407}{}\label{class_ocean_a6a56fee065163c5bd6e5286879648407} 
+\index{Ocean@{Ocean}!Ocean@{Ocean}}
+\index{Ocean@{Ocean}!Ocean@{Ocean}}
+\subsubsection{\texorpdfstring{Ocean()}{Ocean()}}
+{\footnotesize\ttfamily Ocean\+::\+Ocean (\begin{DoxyParamCaption}\item[{double}]{\+\_\+lx,  }\item[{double}]{\+\_\+ly,  }\item[{int}]{\+\_\+nx,  }\item[{int}]{\+\_\+ny,  }\item[{\hyperlink{class_wave_model}{Wave\+Model} $\ast$}]{\+\_\+model }\end{DoxyParamCaption})}
+
+
+
+Constructeur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+lx} & \+: int -\/ taille\\
+\hline
+{\em \+\_\+ly} & \+: taille\\
+\hline
+{\em nx} & \+: int -\/ nb discrétisation en x\\
+\hline
+{\em ny} & \+: int -\/ nb discretisation en y\\
+\hline
+{\em \+\_\+model} & \+: \hyperlink{class_wave_model}{Wave\+Model} -\/ modèle de calcul de houle choisi \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_ocean_a3f3c62c66d2e25ee9c1fb571f66809e4}{}\label{class_ocean_a3f3c62c66d2e25ee9c1fb571f66809e4} 
+\index{Ocean@{Ocean}!generate\+Height@{generate\+Height}}
+\index{generate\+Height@{generate\+Height}!Ocean@{Ocean}}
+\subsubsection{\texorpdfstring{generate\+Height()}{generateHeight()}}
+{\footnotesize\ttfamily void Ocean\+::generate\+Height (\begin{DoxyParamCaption}\item[{double}]{h }\end{DoxyParamCaption})}
+
+
+
+Initialisation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h} & \+: double -\/ création et initialisation du tableau des hauteurs \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_ocean_abd9dcb14e3ec076a8623099c0445dc5c}{}\label{class_ocean_abd9dcb14e3ec076a8623099c0445dc5c} 
+\index{Ocean@{Ocean}!gl\+\_\+\+Vertex\+ArrayX@{gl\+\_\+\+Vertex\+ArrayX}}
+\index{gl\+\_\+\+Vertex\+ArrayX@{gl\+\_\+\+Vertex\+ArrayX}!Ocean@{Ocean}}
+\subsubsection{\texorpdfstring{gl\+\_\+\+Vertex\+Array\+X()}{gl\_VertexArrayX()}}
+{\footnotesize\ttfamily void Ocean\+::gl\+\_\+\+Vertex\+ArrayX (\begin{DoxyParamCaption}\item[{const int}]{y,  }\item[{double $\ast$const}]{vertices }\end{DoxyParamCaption}) const}
+
+Convertit le champs de hauteur en tabeau directement utilisable par Open\+GL pour un y donné param\mbox{[}in\mbox{]} y abscisse de la colonne à parcourir param\mbox{[}out\mbox{]} vertices buffer contenant les valeurs aux noeuds \hypertarget{class_ocean_a1100e965070ccb68a8f0bec5d5b60a5c}{}\label{class_ocean_a1100e965070ccb68a8f0bec5d5b60a5c} 
+\index{Ocean@{Ocean}!gl\+\_\+\+Vertex\+ArrayY@{gl\+\_\+\+Vertex\+ArrayY}}
+\index{gl\+\_\+\+Vertex\+ArrayY@{gl\+\_\+\+Vertex\+ArrayY}!Ocean@{Ocean}}
+\subsubsection{\texorpdfstring{gl\+\_\+\+Vertex\+Array\+Y()}{gl\_VertexArrayY()}}
+{\footnotesize\ttfamily void Ocean\+::gl\+\_\+\+Vertex\+ArrayY (\begin{DoxyParamCaption}\item[{const int}]{x,  }\item[{double $\ast$const}]{vertices }\end{DoxyParamCaption}) const}
+
+Convertit le champs de hauteur en tabeau directement utilisable par Open\+GL pour un x donné param\mbox{[}in\mbox{]} x abscisse de la ligne à parcourir param\mbox{[}out\mbox{]} vertices buffer contenant les valeurs aux noeuds \hypertarget{class_ocean_ad10379d1f92b154eca3936860c96b4f4}{}\label{class_ocean_ad10379d1f92b154eca3936860c96b4f4} 
+\index{Ocean@{Ocean}!init\+\_\+gl\+\_\+\+Vertex\+ArrayX@{init\+\_\+gl\+\_\+\+Vertex\+ArrayX}}
+\index{init\+\_\+gl\+\_\+\+Vertex\+ArrayX@{init\+\_\+gl\+\_\+\+Vertex\+ArrayX}!Ocean@{Ocean}}
+\subsubsection{\texorpdfstring{init\+\_\+gl\+\_\+\+Vertex\+Array\+X()}{init\_gl\_VertexArrayX()}}
+{\footnotesize\ttfamily void Ocean\+::init\+\_\+gl\+\_\+\+Vertex\+ArrayX (\begin{DoxyParamCaption}\item[{const int}]{y,  }\item[{double $\ast$const}]{vertices }\end{DoxyParamCaption}) const}
+
+Initialise la grille dans la direction x param\mbox{[}in\mbox{]} y abscisse de la colonne à parcourir param\mbox{[}out\mbox{]} vertices buffer contenant les coordonnées des noeuds \hypertarget{class_ocean_a1adbab4eeb806026aff3fb730ca3fe5c}{}\label{class_ocean_a1adbab4eeb806026aff3fb730ca3fe5c} 
+\index{Ocean@{Ocean}!init\+\_\+gl\+\_\+\+Vertex\+ArrayY@{init\+\_\+gl\+\_\+\+Vertex\+ArrayY}}
+\index{init\+\_\+gl\+\_\+\+Vertex\+ArrayY@{init\+\_\+gl\+\_\+\+Vertex\+ArrayY}!Ocean@{Ocean}}
+\subsubsection{\texorpdfstring{init\+\_\+gl\+\_\+\+Vertex\+Array\+Y()}{init\_gl\_VertexArrayY()}}
+{\footnotesize\ttfamily void Ocean\+::init\+\_\+gl\+\_\+\+Vertex\+ArrayY (\begin{DoxyParamCaption}\item[{const int}]{x,  }\item[{double $\ast$const}]{vertices }\end{DoxyParamCaption}) const}
+
+Initialise la grille dans la direction y param\mbox{[}in\mbox{]} x abscisse de la ligne à parcourir param\mbox{[}out\mbox{]} vertices buffer contenant les coordonnées des noeuds \hypertarget{class_ocean_ae2b45ea776fbb72552af532b2cd8b120}{}\label{class_ocean_ae2b45ea776fbb72552af532b2cd8b120} 
+\index{Ocean@{Ocean}!main\+\_\+computation@{main\+\_\+computation}}
+\index{main\+\_\+computation@{main\+\_\+computation}!Ocean@{Ocean}}
+\subsubsection{\texorpdfstring{main\+\_\+computation()}{main\_computation()}}
+{\footnotesize\ttfamily void Ocean\+::main\+\_\+computation (\begin{DoxyParamCaption}\item[{int}]{t }\end{DoxyParamCaption})}
+
+
+
+Calcul. 
+
+Calcul du tableau des hauteurs de houle au temps t
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \+: int -\/ temps \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Ocean.\+h\item 
+Ocean.\+cpp\end{DoxyCompactItemize}

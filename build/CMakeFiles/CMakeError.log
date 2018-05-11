@@ -1,0 +1,114 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+69
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
+
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+69
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
+
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+69
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
+
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+69
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
+
+
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+69
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
+
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+69
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
+
+
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTC_39021/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTC_39021.dir/build.make CMakeFiles/cmTC_39021.dir/build
+gmake[1] : on entre dans le répertoire « /Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_39021.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_39021.dir/testCCompiler.c.o   -c "/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
+
+
+gmake[1]: *** [CMakeFiles/cmTC_39021.dir/build.make:66: CMakeFiles/cmTC_39021.dir/testCCompiler.c.o] Error 69
+gmake[1] : on quitte le répertoire « /Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/build/CMakeFiles/CMakeTmp »
+gmake: *** [Makefile:126: cmTC_39021/fast] Error 2
+
+

@@ -1,0 +1,113 @@
+\hypertarget{class_height}{}\section{Height Class Reference}
+\label{class_height}\index{Height@{Height}}
+
+
+classe representant un tableau 2D de double  
+
+
+
+
+{\ttfamily \#include $<$Height.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_height_ae7df55c82f2a3fbe8e1379c4dd003eef}{Height} (double \+\_\+lx, double \+\_\+ly=1.\+0, int \+\_\+nx=1, int \+\_\+ny=1)
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+\hypertarget{class_height_a5aa949bbcd362e4d59fc9d720cf331c6}{}\label{class_height_a5aa949bbcd362e4d59fc9d720cf331c6} 
+{\bfseries Height} (\hyperlink{class_height}{Height} const \&)
+\item 
+\hypertarget{class_height_a1b1db960b77740c413c482dd243a7172}{}\label{class_height_a1b1db960b77740c413c482dd243a7172} 
+\hyperlink{class_height}{Height} \& {\bfseries operator=} (const \hyperlink{class_height}{Height} \&)
+\item 
+void \hyperlink{class_height_a7df615193a661a7f117a56c716e6189e}{init} (double \+\_\+h)
+\begin{DoxyCompactList}\small\item\em Initialisation. \end{DoxyCompactList}\item 
+double \hyperlink{class_height_a8d2a8c6f51eae0a1382a1557bad13faf}{operator()} (int i, int j) const
+\begin{DoxyCompactList}\small\item\em Foncteur. \end{DoxyCompactList}\item 
+\hypertarget{class_height_a8270b4bfbb2d5ef5ea256316dd309dbc}{}\label{class_height_a8270b4bfbb2d5ef5ea256316dd309dbc} 
+double \& {\bfseries operator()} (int i, int j)
+\item 
+\hypertarget{class_height_aaa081f8f3456675762b3d74ded8ea026}{}\label{class_height_aaa081f8f3456675762b3d74ded8ea026} 
+double \hyperlink{class_height_aaa081f8f3456675762b3d74ded8ea026}{get\+Lx} (void) const
+\begin{DoxyCompactList}\small\item\em Accesseur lx. \end{DoxyCompactList}\item 
+\hypertarget{class_height_acd15b8e55b68db36661a07c849ff7be1}{}\label{class_height_acd15b8e55b68db36661a07c849ff7be1} 
+double \hyperlink{class_height_acd15b8e55b68db36661a07c849ff7be1}{get\+Ly} (void) const
+\begin{DoxyCompactList}\small\item\em Accesseur ly. \end{DoxyCompactList}\item 
+\hypertarget{class_height_a44f3f951bdf0dbae9a34b1bb43ad4aa6}{}\label{class_height_a44f3f951bdf0dbae9a34b1bb43ad4aa6} 
+int \hyperlink{class_height_a44f3f951bdf0dbae9a34b1bb43ad4aa6}{getnx} (void) const
+\begin{DoxyCompactList}\small\item\em Accesseur nx. \end{DoxyCompactList}\item 
+\hypertarget{class_height_ab5f469a1458efc563530ebd5321a25f9}{}\label{class_height_ab5f469a1458efc563530ebd5321a25f9} 
+int \hyperlink{class_height_ab5f469a1458efc563530ebd5321a25f9}{getny} (void) const
+\begin{DoxyCompactList}\small\item\em Accesseur ny. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+classe representant un tableau 2D de double 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_height_ae7df55c82f2a3fbe8e1379c4dd003eef}{}\label{class_height_ae7df55c82f2a3fbe8e1379c4dd003eef} 
+\index{Height@{Height}!Height@{Height}}
+\index{Height@{Height}!Height@{Height}}
+\subsubsection{\texorpdfstring{Height()}{Height()}}
+{\footnotesize\ttfamily Height\+::\+Height (\begin{DoxyParamCaption}\item[{double}]{\+\_\+lx,  }\item[{double}]{\+\_\+ly = {\ttfamily 1.0},  }\item[{int}]{\+\_\+nx = {\ttfamily 1},  }\item[{int}]{\+\_\+ny = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+
+
+Constructeur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+lx} & \+: int -\/ taille\\
+\hline
+{\em \+\_\+ly} & \+: taille\\
+\hline
+{\em nx} & \+: int -\/ nb discrétisation en x\\
+\hline
+{\em ny} & \+: int -\/ nb discretisation en y \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_height_a7df615193a661a7f117a56c716e6189e}{}\label{class_height_a7df615193a661a7f117a56c716e6189e} 
+\index{Height@{Height}!init@{init}}
+\index{init@{init}!Height@{Height}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void Height\+::init (\begin{DoxyParamCaption}\item[{double}]{\+\_\+h }\end{DoxyParamCaption})}
+
+
+
+Initialisation. 
+
+Met tous les éléments du tableau à \+\_\+h
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+h} & \+: double -\/ valeur d\textquotesingle{}initialisation \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_height_a8d2a8c6f51eae0a1382a1557bad13faf}{}\label{class_height_a8d2a8c6f51eae0a1382a1557bad13faf} 
+\index{Height@{Height}!operator()@{operator()}}
+\index{operator()@{operator()}!Height@{Height}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily double Height\+::operator() (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption}) const}
+
+
+
+Foncteur. 
+
+Accès à l\textquotesingle{}élément (i,j) (indice \+: i$\ast$ny + j) en rvalue
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \+: int -\/ ligne\\
+\hline
+{\em j} & \+: int -\/ colonne \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Height.\+h\item 
+Height.\+cpp\end{DoxyCompactItemize}

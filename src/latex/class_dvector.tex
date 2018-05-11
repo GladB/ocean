@@ -1,0 +1,155 @@
+\hypertarget{class_dvector}{}\section{Dvector Class Reference}
+\label{class_dvector}\index{Dvector@{Dvector}}
+
+
+classe representant un vecteur de double  
+
+
+
+
+{\ttfamily \#include $<$Dvector.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_dvector_a9eda56cb2ca707d915295defb72869c7}{Dvector} (int n, double v=0.\+0)
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+\hyperlink{class_dvector_a3156d0776c5da1a15685970200ec6b96}{$\sim$\+Dvector} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+\hyperlink{class_dvector_a7040a6dc6feb57dd2c5b7033c00e5de5}{Dvector} (\hyperlink{class_dvector}{Dvector} const \&)
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+\hyperlink{class_dvector_ab7046502bfc8889846cfdcb4499398cb}{Dvector} (std\+::string)
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+\hypertarget{class_dvector_af66e4bdf60171463c01eea1039eecdb1}{}\label{class_dvector_af66e4bdf60171463c01eea1039eecdb1} 
+void \hyperlink{class_dvector_af66e4bdf60171463c01eea1039eecdb1}{display} (std\+::ostream \&str)
+\begin{DoxyCompactList}\small\item\em Affichage d\textquotesingle{}un \hyperlink{class_dvector}{Dvector}. \end{DoxyCompactList}\item 
+\hypertarget{class_dvector_a62bb44cd0057acd565077aa3fbf3a79f}{}\label{class_dvector_a62bb44cd0057acd565077aa3fbf3a79f} 
+int {\bfseries size} (void) const
+\item 
+\hypertarget{class_dvector_a6141ad0ac61b40c23d73eff8f490c771}{}\label{class_dvector_a6141ad0ac61b40c23d73eff8f490c771} 
+void \hyperlink{class_dvector_a6141ad0ac61b40c23d73eff8f490c771}{fill\+Randomly} (void)
+\begin{DoxyCompactList}\small\item\em Remplissage aléatoire du vecteur. \end{DoxyCompactList}\item 
+double \& \hyperlink{class_dvector_ae355bf2da1777227c39e5687810c1b41}{operator()} (int i)
+\begin{DoxyCompactList}\small\item\em Accès au i-\/ème élément du vecteur. \end{DoxyCompactList}\item 
+\hypertarget{class_dvector_a237ba8b1ca7e68f78ec3f85ae800cbec}{}\label{class_dvector_a237ba8b1ca7e68f78ec3f85ae800cbec} 
+double \& {\bfseries operator()} (int i) const
+\item 
+\hypertarget{class_dvector_af8792a4ca9c76251e5e6de5b7c73306f}{}\label{class_dvector_af8792a4ca9c76251e5e6de5b7c73306f} 
+\hyperlink{class_dvector}{Dvector} \& {\bfseries operator+=} (const \hyperlink{class_dvector}{Dvector} \&)
+\item 
+\hypertarget{class_dvector_a764b88d94ce9e1921d6a07ec5b525ff6}{}\label{class_dvector_a764b88d94ce9e1921d6a07ec5b525ff6} 
+\hyperlink{class_dvector}{Dvector} \& {\bfseries operator+=} (const double)
+\item 
+\hypertarget{class_dvector_a596872218e11d528f9f158b45027225a}{}\label{class_dvector_a596872218e11d528f9f158b45027225a} 
+\hyperlink{class_dvector}{Dvector} \& {\bfseries operator-\/=} (const \hyperlink{class_dvector}{Dvector} \&)
+\item 
+\hypertarget{class_dvector_a8419b3b5fb7e2df2736b00ee24358aff}{}\label{class_dvector_a8419b3b5fb7e2df2736b00ee24358aff} 
+\hyperlink{class_dvector}{Dvector} \& {\bfseries operator-\/=} (const double)
+\item 
+\hypertarget{class_dvector_a740fdcf601bd8327ac79c51c389fb9be}{}\label{class_dvector_a740fdcf601bd8327ac79c51c389fb9be} 
+\hyperlink{class_dvector}{Dvector} \& {\bfseries operator$\ast$=} (const double)
+\item 
+\hypertarget{class_dvector_a4c59358d8c9b4f848e92f545645c7076}{}\label{class_dvector_a4c59358d8c9b4f848e92f545645c7076} 
+\hyperlink{class_dvector}{Dvector} \& {\bfseries operator/=} (const double)
+\item 
+\hypertarget{class_dvector_a2130e57724c78e04d041ef58a885dc1c}{}\label{class_dvector_a2130e57724c78e04d041ef58a885dc1c} 
+\hyperlink{class_dvector}{Dvector} \& {\bfseries operator=} (const \hyperlink{class_dvector}{Dvector} \&)
+\item 
+\hypertarget{class_dvector_a696e2627978288f060beb106c98c7b3c}{}\label{class_dvector_a696e2627978288f060beb106c98c7b3c} 
+bool {\bfseries operator==} (const \hyperlink{class_dvector}{Dvector} \&)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+classe representant un vecteur de double 
+
+La classe gere la création, destruction et opérations s\textquotesingle{}appliquant aux vecteurs de double 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_dvector_a9eda56cb2ca707d915295defb72869c7}{}\label{class_dvector_a9eda56cb2ca707d915295defb72869c7} 
+\index{Dvector@{Dvector}!Dvector@{Dvector}}
+\index{Dvector@{Dvector}!Dvector@{Dvector}}
+\subsubsection{\texorpdfstring{Dvector()}{Dvector()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Dvector\+::\+Dvector (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{double}]{v = {\ttfamily 0.0} }\end{DoxyParamCaption})}
+
+
+
+Constructeur. 
+
+Constructeur de la classe \hyperlink{class_dvector}{Dvector}
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & \+: int -\/ taille du vecteur \\
+\hline
+{\em v} & \+: double -\/ valeur initialement présente dans toutes les cases du vecteur \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_dvector_a3156d0776c5da1a15685970200ec6b96}{}\label{class_dvector_a3156d0776c5da1a15685970200ec6b96} 
+\index{Dvector@{Dvector}!````~Dvector@{$\sim$\+Dvector}}
+\index{````~Dvector@{$\sim$\+Dvector}!Dvector@{Dvector}}
+\subsubsection{\texorpdfstring{$\sim$\+Dvector()}{~Dvector()}}
+{\footnotesize\ttfamily Dvector\+::$\sim$\+Dvector (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructeur. 
+
+Destructeur de la classe C\+Player \hypertarget{class_dvector_a7040a6dc6feb57dd2c5b7033c00e5de5}{}\label{class_dvector_a7040a6dc6feb57dd2c5b7033c00e5de5} 
+\index{Dvector@{Dvector}!Dvector@{Dvector}}
+\index{Dvector@{Dvector}!Dvector@{Dvector}}
+\subsubsection{\texorpdfstring{Dvector()}{Dvector()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Dvector\+::\+Dvector (\begin{DoxyParamCaption}\item[{\hyperlink{class_dvector}{Dvector} const \&}]{dv }\end{DoxyParamCaption})}
+
+
+
+Constructeur. 
+
+Constructeur par copie de la classe \hyperlink{class_dvector}{Dvector}
+
+
+\begin{DoxyParams}{Parameters}
+{\em dv} & \+: \hyperlink{class_dvector}{Dvector} -\/ vecteur que l\textquotesingle{}on veut copier \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_dvector_ab7046502bfc8889846cfdcb4499398cb}{}\label{class_dvector_ab7046502bfc8889846cfdcb4499398cb} 
+\index{Dvector@{Dvector}!Dvector@{Dvector}}
+\index{Dvector@{Dvector}!Dvector@{Dvector}}
+\subsubsection{\texorpdfstring{Dvector()}{Dvector()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Dvector\+::\+Dvector (\begin{DoxyParamCaption}\item[{std\+::string}]{filename }\end{DoxyParamCaption})}
+
+
+
+Constructeur. 
+
+Constructeur depuis un fichier de la classe \hyperlink{class_dvector}{Dvector}
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & \+: string -\/ nom du fichier où se trouvent les valeurs que l\textquotesingle{}on veut mettre dans le \hyperlink{class_dvector}{Dvector} \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_dvector_ae355bf2da1777227c39e5687810c1b41}{}\label{class_dvector_ae355bf2da1777227c39e5687810c1b41} 
+\index{Dvector@{Dvector}!operator()@{operator()}}
+\index{operator()@{operator()}!Dvector@{Dvector}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily double \& Dvector\+::operator() (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Accès au i-\/ème élément du vecteur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \+: indice \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_dvector_8h}{Dvector.\+h}\item 
+Dvector.\+cpp\end{DoxyCompactItemize}

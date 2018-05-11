@@ -1,0 +1,115 @@
+\hypertarget{class_camera}{}\section{Camera Class Reference}
+\label{class_camera}\index{Camera@{Camera}}
+
+
+{\ttfamily \#include $<$camera.\+hxx$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_camera_a3ba12bb77fc0e6ce7048a7c03c7fa776}{K\+E\+Y\+B\+O\+A\+RD} \{ {\bfseries A\+Z\+E\+R\+TY}, 
+{\bfseries Q\+W\+E\+R\+TY}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_camera_a09942dcf1bbcf89bbca39601b9f273be}{Camera} (\hyperlink{class_camera_a3ba12bb77fc0e6ce7048a7c03c7fa776}{K\+E\+Y\+B\+O\+A\+RD}, float, float, float, float, float, float, float, int, int)
+\item 
+\hypertarget{class_camera_a7bc94fe5b01cd16da44630bd64ec741f}{}\label{class_camera_a7bc94fe5b01cd16da44630bd64ec741f} 
+int {\bfseries get\+MouseX} ()
+\item 
+\hypertarget{class_camera_a9f384f3c203241bf4008211a4664722f}{}\label{class_camera_a9f384f3c203241bf4008211a4664722f} 
+int {\bfseries get\+MouseY} ()
+\item 
+\hypertarget{class_camera_a67b651e8e6e82483ac5b6bad6521412c}{}\label{class_camera_a67b651e8e6e82483ac5b6bad6521412c} 
+float {\bfseries get\+SightX} ()
+\item 
+\hypertarget{class_camera_a1e460da4c97d1ea672263352fb643af4}{}\label{class_camera_a1e460da4c97d1ea672263352fb643af4} 
+float {\bfseries get\+SightY} ()
+\item 
+\hypertarget{class_camera_af99fd2297879cac1096d890c037cc6ea}{}\label{class_camera_af99fd2297879cac1096d890c037cc6ea} 
+float {\bfseries get\+SightZ} ()
+\item 
+\hypertarget{class_camera_ae7c46d026313f6faefdcfdb5094ea8cb}{}\label{class_camera_ae7c46d026313f6faefdcfdb5094ea8cb} 
+float {\bfseries getX} ()
+\item 
+\hypertarget{class_camera_ad71d83315248602503546eba37697390}{}\label{class_camera_ad71d83315248602503546eba37697390} 
+float {\bfseries getY} ()
+\item 
+\hypertarget{class_camera_ab85a0e157f20a818b29e3846d48d57a0}{}\label{class_camera_ab85a0e157f20a818b29e3846d48d57a0} 
+float {\bfseries getZ} ()
+\item 
+\hypertarget{class_camera_a2dd502092835ca1fed314f7460b35a6e}{}\label{class_camera_a2dd502092835ca1fed314f7460b35a6e} 
+void {\bfseries set\+Keyboard} (int i, bool state)
+\item 
+\hypertarget{class_camera_ac513682c4665c0f0ee87c29da8926544}{}\label{class_camera_ac513682c4665c0f0ee87c29da8926544} 
+void {\bfseries set\+Mouse} (int x, int y)
+\item 
+\hypertarget{class_camera_ab9a63c5ca87cd0c25b3efc21a941c7b9}{}\label{class_camera_ab9a63c5ca87cd0c25b3efc21a941c7b9} 
+void {\bfseries setX} (float p\+\_\+X)
+\item 
+\hypertarget{class_camera_a0ce1e6403cf1c08acd9b2cb881f35047}{}\label{class_camera_a0ce1e6403cf1c08acd9b2cb881f35047} 
+void {\bfseries setY} (float p\+\_\+Y)
+\item 
+\hypertarget{class_camera_a73ba9f457e516263d08a5f03d78b9360}{}\label{class_camera_a73ba9f457e516263d08a5f03d78b9360} 
+void {\bfseries setZ} (float p\+\_\+Z)
+\item 
+void \hyperlink{class_camera_a8a94e5f6009108908180528439076eb1}{rotation} (int, int)
+\item 
+void \hyperlink{class_camera_a8b472cc044e4796a28a2abe185e82eb5}{translation} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Défini le comportement de la caméra en fonction des actions de la souris ou du clavier 
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{class_camera_a3ba12bb77fc0e6ce7048a7c03c7fa776}{}\label{class_camera_a3ba12bb77fc0e6ce7048a7c03c7fa776} 
+\index{Camera@{Camera}!K\+E\+Y\+B\+O\+A\+RD@{K\+E\+Y\+B\+O\+A\+RD}}
+\index{K\+E\+Y\+B\+O\+A\+RD@{K\+E\+Y\+B\+O\+A\+RD}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{K\+E\+Y\+B\+O\+A\+RD}{KEYBOARD}}
+{\footnotesize\ttfamily enum \hyperlink{class_camera_a3ba12bb77fc0e6ce7048a7c03c7fa776}{Camera\+::\+K\+E\+Y\+B\+O\+A\+RD}}
+
+Précise les claviers utilisables 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_camera_a09942dcf1bbcf89bbca39601b9f273be}{}\label{class_camera_a09942dcf1bbcf89bbca39601b9f273be} 
+\index{Camera@{Camera}!Camera@{Camera}}
+\index{Camera@{Camera}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{Camera()}{Camera()}}
+{\footnotesize\ttfamily Camera\+::\+Camera (\begin{DoxyParamCaption}\item[{\hyperlink{class_camera_a3ba12bb77fc0e6ce7048a7c03c7fa776}{K\+E\+Y\+B\+O\+A\+RD}}]{p\+\_\+keyboard,  }\item[{float}]{p\+\_\+X,  }\item[{float}]{p\+\_\+Y,  }\item[{float}]{p\+\_\+Z,  }\item[{float}]{p\+\_\+psi,  }\item[{float}]{p\+\_\+theta,  }\item[{float}]{p\+\_\+rotation\+\_\+speed,  }\item[{float}]{p\+\_\+translation\+\_\+speed,  }\item[{int}]{p\+\_\+window\+\_\+width,  }\item[{int}]{p\+\_\+window\+\_\+height }\end{DoxyParamCaption})}
+
+Unique constructeur possible 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em } & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_camera_a8a94e5f6009108908180528439076eb1}{}\label{class_camera_a8a94e5f6009108908180528439076eb1} 
+\index{Camera@{Camera}!rotation@{rotation}}
+\index{rotation@{rotation}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{rotation()}{rotation()}}
+{\footnotesize\ttfamily void Camera\+::rotation (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Calcul les nouvelles valeurs d\textquotesingle{}angle en fonction de la position de la souris avec une limite 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em x} & position de la souris dans la direction x \\
+\hline
+\mbox{\tt in}  & {\em y} & position de la souris dans la direction y \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_camera_a8b472cc044e4796a28a2abe185e82eb5}{}\label{class_camera_a8b472cc044e4796a28a2abe185e82eb5} 
+\index{Camera@{Camera}!translation@{translation}}
+\index{translation@{translation}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{translation()}{translation()}}
+{\footnotesize\ttfamily void Camera\+::translation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Modifie le centre de la sphère de visualisation pour une sensibilité donnée l\textquotesingle{}angle de la sphère 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+camera.\+hxx\item 
+camera.\+cxx\end{DoxyCompactItemize}

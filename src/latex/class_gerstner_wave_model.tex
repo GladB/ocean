@@ -1,0 +1,78 @@
+\hypertarget{class_gerstner_wave_model}{}\section{Gerstner\+Wave\+Model Class Reference}
+\label{class_gerstner_wave_model}\index{Gerstner\+Wave\+Model@{Gerstner\+Wave\+Model}}
+
+
+Modèle de Gerstner.  
+
+
+
+
+{\ttfamily \#include $<$Gerstner\+Wave\+Model.\+h$>$}
+
+Inheritance diagram for Gerstner\+Wave\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_gerstner_wave_model}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_gerstner_wave_model_a4720c379eb0456649f8e4f0112baeee0}{}\label{class_gerstner_wave_model_a4720c379eb0456649f8e4f0112baeee0} 
+{\bfseries Gerstner\+Wave\+Model} (double dirX, double dirY=0, double align\+Vague\+Vent=0, double intensite=0, double l\+Onde\+Moy=0, double ajust\+Haut\+Vague=0, int n=10)
+\item 
+double \hyperlink{class_gerstner_wave_model_af7df138d591a6fb8e8cbda16e26336ab}{operator()} (int x, int y, int t)
+\begin{DoxyCompactList}\small\item\em Foncteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \hyperlink{class_gerstner_wave}{Gerstner\+Wave} $>$ \hyperlink{class_gerstner_wave_model_a25b41754840bd8f3aa2691a388ce42c5}{liste\+Gerstner\+Wave}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Modèle de Gerstner. 
+
+Contient une liste d\textquotesingle{}ondes de Gerstner dont on fait la somme en chaque point pour trouver la hauteur de la houle 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_gerstner_wave_model_af7df138d591a6fb8e8cbda16e26336ab}{}\label{class_gerstner_wave_model_af7df138d591a6fb8e8cbda16e26336ab} 
+\index{Gerstner\+Wave\+Model@{Gerstner\+Wave\+Model}!operator()@{operator()}}
+\index{operator()@{operator()}!Gerstner\+Wave\+Model@{Gerstner\+Wave\+Model}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily double Gerstner\+Wave\+Model\+::operator() (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Foncteur. 
+
+Calcul de la hauteur de l\textquotesingle{}onde en sommant celle de chaque onde de la liste en x,y à t
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \+: int -\/ ligne\\
+\hline
+{\em y} & \+: int -\/ colonne\\
+\hline
+{\em t} & \+: int -\/ temps \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{class_wave_model}{Wave\+Model}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_gerstner_wave_model_a25b41754840bd8f3aa2691a388ce42c5}{}\label{class_gerstner_wave_model_a25b41754840bd8f3aa2691a388ce42c5} 
+\index{Gerstner\+Wave\+Model@{Gerstner\+Wave\+Model}!liste\+Gerstner\+Wave@{liste\+Gerstner\+Wave}}
+\index{liste\+Gerstner\+Wave@{liste\+Gerstner\+Wave}!Gerstner\+Wave\+Model@{Gerstner\+Wave\+Model}}
+\subsubsection{\texorpdfstring{liste\+Gerstner\+Wave}{listeGerstnerWave}}
+{\footnotesize\ttfamily std\+::vector$<$\hyperlink{class_gerstner_wave}{Gerstner\+Wave}$>$ Gerstner\+Wave\+Model\+::liste\+Gerstner\+Wave}
+
+Liste des ondes 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Gerstner\+Wave\+Model.\+h\item 
+Gerstner\+Wave\+Model.\+cpp\end{DoxyCompactItemize}

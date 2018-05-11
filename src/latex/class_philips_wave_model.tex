@@ -1,0 +1,96 @@
+\hypertarget{class_philips_wave_model}{}\section{Philips\+Wave\+Model Class Reference}
+\label{class_philips_wave_model}\index{Philips\+Wave\+Model@{Philips\+Wave\+Model}}
+Inheritance diagram for Philips\+Wave\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_philips_wave_model}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_philips_wave_model_af74356970392e267473590564dfaa4f2}{Philips\+Wave\+Model} (double dirX, double dirY, double align\+Vague\+Vent, double intensite, double l\+Onde\+Moy, double ajust\+Haut\+Vague, int \+\_\+lx, int \+\_\+ly, int \+\_\+nx, int \+\_\+ny)
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+void \hyperlink{class_philips_wave_model_acbd7477d35df750bcd83d8c680eabb83}{init} ()
+\begin{DoxyCompactList}\small\item\em Initialisation. \end{DoxyCompactList}\item 
+double \hyperlink{class_philips_wave_model_aaefa659dbc00e44430e244a03f2f45ec}{operator()} (int x, int y, int t)
+\begin{DoxyCompactList}\small\item\em Foncteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_philips_wave_model_af74356970392e267473590564dfaa4f2}{}\label{class_philips_wave_model_af74356970392e267473590564dfaa4f2} 
+\index{Philips\+Wave\+Model@{Philips\+Wave\+Model}!Philips\+Wave\+Model@{Philips\+Wave\+Model}}
+\index{Philips\+Wave\+Model@{Philips\+Wave\+Model}!Philips\+Wave\+Model@{Philips\+Wave\+Model}}
+\subsubsection{\texorpdfstring{Philips\+Wave\+Model()}{PhilipsWaveModel()}}
+{\footnotesize\ttfamily Philips\+Wave\+Model\+::\+Philips\+Wave\+Model (\begin{DoxyParamCaption}\item[{double}]{dirX,  }\item[{double}]{dirY,  }\item[{double}]{align\+Vague\+Vent,  }\item[{double}]{intensite,  }\item[{double}]{l\+Onde\+Moy,  }\item[{double}]{ajust\+Haut\+Vague,  }\item[{int}]{\+\_\+lx,  }\item[{int}]{\+\_\+ly,  }\item[{int}]{\+\_\+nx,  }\item[{int}]{\+\_\+ny }\end{DoxyParamCaption})}
+
+
+
+Constructeur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dirX} & \+: direction du vent selon X\\
+\hline
+{\em dirY} & \+: direction du vent selon Y\\
+\hline
+{\em align\+Vague\+Vent} & \+: alignement moyen entre les vagues et le vent\\
+\hline
+{\em intensite} & \+: intensite du vent\\
+\hline
+{\em l\+Onde\+Moy} & \+: longueur d\textquotesingle{}onde moyenne des vagues\\
+\hline
+{\em ajust\+Haut\+Vague} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_philips_wave_model_acbd7477d35df750bcd83d8c680eabb83}{}\label{class_philips_wave_model_acbd7477d35df750bcd83d8c680eabb83} 
+\index{Philips\+Wave\+Model@{Philips\+Wave\+Model}!init@{init}}
+\index{init@{init}!Philips\+Wave\+Model@{Philips\+Wave\+Model}}
+\subsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void Philips\+Wave\+Model\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initialisation. 
+
+Calcul des facteurs de Phillips selon k, ainsi que des fréquences w selon k $<$ norme au carré de k
+
+$<$ norme exposant 4 de k
+
+$<$ fréquence
+
+$<$ Coefficient de Phillips \hypertarget{class_philips_wave_model_aaefa659dbc00e44430e244a03f2f45ec}{}\label{class_philips_wave_model_aaefa659dbc00e44430e244a03f2f45ec} 
+\index{Philips\+Wave\+Model@{Philips\+Wave\+Model}!operator()@{operator()}}
+\index{operator()@{operator()}!Philips\+Wave\+Model@{Philips\+Wave\+Model}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily double Philips\+Wave\+Model\+::operator() (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Foncteur. 
+
+Calcul de la hauteur de l\textquotesingle{}onde en sommant celle de chaque onde de la liste en x,y à t
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \+: int -\/ ligne\\
+\hline
+{\em y} & \+: int -\/ colonne\\
+\hline
+{\em t} & \+: int -\/ temps \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{class_wave_model}{Wave\+Model}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Philips\+Wave\+Model.\+h\item 
+Philips\+Wave\+Model.\+cpp\end{DoxyCompactItemize}

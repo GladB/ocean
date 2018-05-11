@@ -1,0 +1,194 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Dvector.cpp
+limits
+-
+Dvector.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Dvector.h
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Dvector.h
+iostream
+-
+fstream
+-
+string
+-
+cstdio
+-
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+assert.h
+-
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/FFT.cpp
+FFT.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/FFT.h
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/FFT.h
+complex
+-
+vector
+-
+cmath
+-
+math.h
+-
+iostream
+-
+Ocean.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Ocean.h
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/GerstnerWave.cpp
+GerstnerWave.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/GerstnerWave.h
+cmath
+-
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/GerstnerWave.h
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/GerstnerWaveModel.cpp
+GerstnerWaveModel.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/GerstnerWaveModel.h
+cstdlib
+-
+ctime
+-
+iostream
+-
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/GerstnerWaveModel.h
+WaveModel.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/WaveModel.h
+GerstnerWave.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/GerstnerWave.h
+vector
+-
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Height.cpp
+Height.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Height.h
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Height.h
+Dvector.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Dvector.h
+vector
+-
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Ocean.cpp
+Ocean.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Ocean.h
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Ocean.h
+Height.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Height.h
+WaveModel.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/WaveModel.h
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/PhilipsWaveModel.cpp
+PhilipsWaveModel.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/PhilipsWaveModel.h
+cstdlib
+-
+ctime
+-
+cmath
+-
+random
+-
+FFT.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/FFT.h
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/PhilipsWaveModel.h
+vector
+-
+complex
+-
+WaveModel.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/WaveModel.h
+Ocean.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Ocean.h
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/WaveModel.cpp
+WaveModel.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/WaveModel.h
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/WaveModel.h
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/camera.cxx
+iostream
+-
+gl_defs.hxx
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/gl_defs.hxx
+camera.hxx
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/camera.hxx
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/camera.hxx
+cmath
+-
+map
+-
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/gl_defs.hxx
+windows.h
+-
+GL/glut.h
+-
+GLUT/glut.h
+-
+GL/glut.h
+-
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/main.cxx
+cstdlib
+-
+ctime
+-
+iostream
+-
+Ocean.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Ocean.h
+camera.hxx
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/camera.hxx
+window.hxx
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/window.hxx
+GerstnerWave.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/GerstnerWave.h
+GerstnerWaveModel.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/GerstnerWaveModel.h
+PhilipsWaveModel.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/PhilipsWaveModel.h
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/window.cxx
+cmath
+-
+cstring
+-
+ctime
+-
+iostream
+-
+sstream
+-
+vector
+-
+gl_defs.hxx
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/gl_defs.hxx
+camera.hxx
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/camera.hxx
+window.hxx
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/window.hxx
+
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/window.hxx
+Ocean.h
+/Users/gladysbaudet/Desktop/Cours/IMAG-2A/Semestre 2/C++/TP_CPP/TP4_baudetgl_romeroq/src/Ocean.h
+

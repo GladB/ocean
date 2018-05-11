@@ -1,0 +1,119 @@
+\hypertarget{class_gerstner_wave}{}\section{Gerstner\+Wave Class Reference}
+\label{class_gerstner_wave}\index{Gerstner\+Wave@{Gerstner\+Wave}}
+
+
+classe representant une onde de Gerstner  
+
+
+
+
+{\ttfamily \#include $<$Gerstner\+Wave.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_gerstner_wave_a5e8406c955d58067d88f079397ce7453}{}\label{class_gerstner_wave_a5e8406c955d58067d88f079397ce7453} 
+{\bfseries Gerstner\+Wave} (double a, double p=0, double dx=0, double dy=0)
+\item 
+\hypertarget{class_gerstner_wave_aa9dc038a2f1f5e6753b953b150807f79}{}\label{class_gerstner_wave_aa9dc038a2f1f5e6753b953b150807f79} 
+{\bfseries Gerstner\+Wave} (\hyperlink{class_gerstner_wave}{Gerstner\+Wave} const \&)
+\item 
+\hypertarget{class_gerstner_wave_af8f329cb3b8fd4eca6f7c45d76508629}{}\label{class_gerstner_wave_af8f329cb3b8fd4eca6f7c45d76508629} 
+\hyperlink{class_gerstner_wave}{Gerstner\+Wave} \& {\bfseries operator=} (const \hyperlink{class_gerstner_wave}{Gerstner\+Wave} \&)
+\item 
+\hypertarget{class_gerstner_wave_a9173e1593c21d452065f6afab72a2dac}{}\label{class_gerstner_wave_a9173e1593c21d452065f6afab72a2dac} 
+double {\bfseries get\+Ampl} (void) const
+\item 
+\hypertarget{class_gerstner_wave_a40681335f7ae8d2f673ecca5e2bc504f}{}\label{class_gerstner_wave_a40681335f7ae8d2f673ecca5e2bc504f} 
+double {\bfseries get\+Phase} (void) const
+\item 
+\hypertarget{class_gerstner_wave_aaabdadec1007ce8a53dd26e8754cc59f}{}\label{class_gerstner_wave_aaabdadec1007ce8a53dd26e8754cc59f} 
+double {\bfseries get\+DirX} (void) const
+\item 
+\hypertarget{class_gerstner_wave_a75c41324bcc401ea52d98c6ac5d464ee}{}\label{class_gerstner_wave_a75c41324bcc401ea52d98c6ac5d464ee} 
+double {\bfseries get\+DirY} (void) const
+\item 
+\hypertarget{class_gerstner_wave_ada562c8aba8b74b428a3c19f6cb4a681}{}\label{class_gerstner_wave_ada562c8aba8b74b428a3c19f6cb4a681} 
+double {\bfseries get\+Freq} (void) const
+\item 
+double \hyperlink{class_gerstner_wave_afc6bb905ba248bd5c8ca7be8b172dedb}{operator()} (int x, int y, int t) const
+\begin{DoxyCompactList}\small\item\em Foncteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_gerstner_wave_a4f84e62a5c1d6cd89903d678cdfd1142}{ampl}
+\item 
+double \hyperlink{class_gerstner_wave_a713803a3f7f9e5897c6ed39f230914cd}{phase}
+\item 
+double \hyperlink{class_gerstner_wave_a4b245658459be1c4e0ba2408e5ef7434}{dirX}
+\item 
+double \hyperlink{class_gerstner_wave_af380f80b44febc264426d11c1457ae17}{dirY}
+\item 
+double \hyperlink{class_gerstner_wave_a3916382d8e0b58d3f973f75e342859ff}{freq}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+classe representant une onde de Gerstner 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_gerstner_wave_afc6bb905ba248bd5c8ca7be8b172dedb}{}\label{class_gerstner_wave_afc6bb905ba248bd5c8ca7be8b172dedb} 
+\index{Gerstner\+Wave@{Gerstner\+Wave}!operator()@{operator()}}
+\index{operator()@{operator()}!Gerstner\+Wave@{Gerstner\+Wave}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily double Gerstner\+Wave\+::operator() (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{t }\end{DoxyParamCaption}) const}
+
+
+
+Foncteur. 
+
+Calcul de la hauteur de l\textquotesingle{}onde en x,y à t
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \+: int -\/ ligne\\
+\hline
+{\em y} & \+: int -\/ colonne\\
+\hline
+{\em t} & \+: int -\/ temps \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_gerstner_wave_a4f84e62a5c1d6cd89903d678cdfd1142}{}\label{class_gerstner_wave_a4f84e62a5c1d6cd89903d678cdfd1142} 
+\index{Gerstner\+Wave@{Gerstner\+Wave}!ampl@{ampl}}
+\index{ampl@{ampl}!Gerstner\+Wave@{Gerstner\+Wave}}
+\subsubsection{\texorpdfstring{ampl}{ampl}}
+{\footnotesize\ttfamily double Gerstner\+Wave\+::ampl}
+
+Amplitude de la vague \hypertarget{class_gerstner_wave_a4b245658459be1c4e0ba2408e5ef7434}{}\label{class_gerstner_wave_a4b245658459be1c4e0ba2408e5ef7434} 
+\index{Gerstner\+Wave@{Gerstner\+Wave}!dirX@{dirX}}
+\index{dirX@{dirX}!Gerstner\+Wave@{Gerstner\+Wave}}
+\subsubsection{\texorpdfstring{dirX}{dirX}}
+{\footnotesize\ttfamily double Gerstner\+Wave\+::dirX}
+
+direction de l\textquotesingle{}onde en x, proche de direction moyenne du vent \hypertarget{class_gerstner_wave_af380f80b44febc264426d11c1457ae17}{}\label{class_gerstner_wave_af380f80b44febc264426d11c1457ae17} 
+\index{Gerstner\+Wave@{Gerstner\+Wave}!dirY@{dirY}}
+\index{dirY@{dirY}!Gerstner\+Wave@{Gerstner\+Wave}}
+\subsubsection{\texorpdfstring{dirY}{dirY}}
+{\footnotesize\ttfamily double Gerstner\+Wave\+::dirY}
+
+direction de l\textquotesingle{}onde en y, proche de direction moyenne du vent \hypertarget{class_gerstner_wave_a3916382d8e0b58d3f973f75e342859ff}{}\label{class_gerstner_wave_a3916382d8e0b58d3f973f75e342859ff} 
+\index{Gerstner\+Wave@{Gerstner\+Wave}!freq@{freq}}
+\index{freq@{freq}!Gerstner\+Wave@{Gerstner\+Wave}}
+\subsubsection{\texorpdfstring{freq}{freq}}
+{\footnotesize\ttfamily double Gerstner\+Wave\+::freq}
+
+Fréquence de l\textquotesingle{}onde \hypertarget{class_gerstner_wave_a713803a3f7f9e5897c6ed39f230914cd}{}\label{class_gerstner_wave_a713803a3f7f9e5897c6ed39f230914cd} 
+\index{Gerstner\+Wave@{Gerstner\+Wave}!phase@{phase}}
+\index{phase@{phase}!Gerstner\+Wave@{Gerstner\+Wave}}
+\subsubsection{\texorpdfstring{phase}{phase}}
+{\footnotesize\ttfamily double Gerstner\+Wave\+::phase}
+
+Phase de l\textquotesingle{}onde 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Gerstner\+Wave.\+h\item 
+Gerstner\+Wave.\+cpp\end{DoxyCompactItemize}

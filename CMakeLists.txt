@@ -1,0 +1,10 @@
+
+cmake_minimum_required (VERSION 2.8.11)
+project (TP4)
+#set(CMAKE_CXX_FLAGS "-g -Wall -Wextra -lGL -lGLU -lglut -std=c++11")
+set(CMAKE_CXX_FLAGS "-g -Wall -Wextra -framework GLUT -framework OpenGL -Wno-deprecated")
+add_executable (test src/main.cxx src/Dvector.cpp src/Height.cpp src/WaveModel.cpp src/Ocean.cpp src/camera.cxx src/window.cxx src/GerstnerWaveModel.cpp src/GerstnerWave.cpp src/PhilipsWaveModel.cpp src/FFT.cpp)
+#add_executable (test src/testInit.cpp src/Dvector.cpp src/Height.cpp src/WaveModel.cpp src/Ocean.cpp src/camera.cxx src/window.cxx src/GerstnerWaveModel.cpp src/GerstnerWave.cpp src/PhilipsWaveModel.cpp src/FFT.cpp)
+find_package(OpenGL REQUIRED) 
+find_package(GLUT REQUIRED) 
+include_directories( ${OPENGL_INCLUDE_DIRS} ${GLUT_INCLUDE_DIRS} )
