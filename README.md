@@ -25,6 +25,7 @@ From the current directory :
  
 [for MacOS users, run as it is. For Linux users, uncomment 4th line of CMakeLists.txt and comment the 5th.]
 Once this step is done, run by typing 
+ 
  $./test
  
  
